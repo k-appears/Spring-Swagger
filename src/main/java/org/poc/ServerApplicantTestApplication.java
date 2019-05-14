@@ -53,7 +53,7 @@ public class ServerApplicantTestApplication extends WebMvcConfigurerAdapter
     private ApiInfo generateApiInfo()
     {
         return new ApiInfo(
-            "Server Applicant Test Service", "Purpose: check technolofy stack.", "Version 1.0 - mw",
+            "Swagger - Sprint boots - Basic Auth", "Purpose: check technology stack.", "Version 1.0 - mw",
             "urn:tos", "", "Apache 2.0", "http://www.apache.org/licenses/LICENSE-2.0");
     }
 

@@ -3,13 +3,14 @@
 * Java 1.8
 * Spring Boot
 * Swagger
+* Basic Authentication
 * Filter by Example Criteria
 * Database H2 (In-Memory)
 * Maven
 
 # How to run it
 
-Main class: `org.poc.ServerApplicantTestApplication`
+Main class: [ServerApplicantTestApplication.java](src/main/java/org/poc/ServerApplicantTestApplication.java )
 
 Go to: http://localhost:8080
 
@@ -17,7 +18,9 @@ Go to: http://localhost:8080
 Authorization method used: Basic
 
 ### Using Swagger:
-Click on Authorize button. ![alt text](etc/authorize.png "Button Authorize")
+Click on Authorize button. ![Swagger Screenshot](etc/authorize.png "Button Authorize")
+- User: `user`
+- Password: `password`
 
 
 ### Using curl:
